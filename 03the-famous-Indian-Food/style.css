@@ -1,0 +1,103 @@
+body{
+			background-color: whitesmoke;
+			font-family:serif;
+
+			margin: 0;
+		}
+		 h1{
+			text-align: center;
+		}
+		.image-div{
+			border: 2px solid blue;
+			width: 410px;
+			padding: 10px;
+			border-radius:10px;
+			float: left;
+			margin: 5px;
+			text-align: center;
+		}
+		.desc{
+			padding: 2px;
+		}
+		.zoom{
+			width: 400px;
+			height: 300px;
+			overflow: hidden;
+			border-radius: 10px;
+			margin: 5px;
+		}
+		.zoom img{
+			max-width: 100%;
+			max-height: 100%;
+			border-radius: 10px;
+			transition: all 1s;
+			cursor: pointer;
+		}
+		.zoom-img:hover{
+			box-shadow: 0 0 25px grey;
+		}
+		.zoom:hover img{
+			transform: scale(2 ,2);
+			border-radius: 15px;
+			border: 2px solid grey;
+	}
+	h2{
+		color: black;
+		text-align: center;
+		border: 2px solid green;
+		padding: 10px;
+		background-color: lightgreen;
+		border-radius: 10px;
+	}
+	.delhi_food h3{
+		border: 2px solid grey;
+		margin-top: 800px;
+		padding: 10px;
+		background-color: lightgreen;
+		text-align: center;
+		border-radius: 10px;
+		color: black;
+		font-size: 20px;
+
+	}
+	.main-header{
+            background: white url("img/image4.jpeg") no-repeat scroll top left;
+            padding: 12px;
+            color: white;
+        }
+        .main-nav{
+            background-color: blue;
+            padding: 5px;
+            position: sticky;
+            top: 0;
+        }
+        .main-nav a{
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            display: inline-block;
+            font-size: 18px;
+        }
+        .main-nav a:hover{
+            background: linear-gradient(45deg,black,orangered);
+            border-radius: 50px;
+            box-shadow: 0 0 5px white;
+        }
+        .main-nav a.active{
+            background: linear-gradient(45deg,black,darkred);
+            border-radius: 50px;
+            box-shadow: 0 0 5px white;
+        }
+        .main-footer {
+    		background-color: black;
+    		padding: 10px;
+    		text-align: center;
+    		color: white;
+    		font-size: 15px;
+    	}
+    	.main-footer p b a{
+    		color: white;
+}
+  	.main-footer p b a:hover{
+    		color: lightgreen;
+}

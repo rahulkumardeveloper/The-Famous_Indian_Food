@@ -1,0 +1,44 @@
+
+		body{
+			background-color: whitesmoke;
+			margin: 0;
+			padding: 0;
+		}
+		nav{
+			background-color: orange;
+			overflow: hidden;
+
+		}
+		nav ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			
+		}
+		nav ul li{
+			float: left;
+		}
+		nav ul li a{
+			text-decoration: none;
+			padding: 15px 25px;
+			color: blac;
+			display: inline-block;
+		}
+		nav ul li a:hover{
+			background-color: grey;
+			color: white;
+			border-radius: 10px;
+		}
+		.dropdown_list{
+			background-color: lightgreen;
+			position: absolute;
+			display: none;
+		}
+		.dropdown_list a{
+			margin: 0;
+			display: block;
+		}
+		.dropdown:hover .dropdown_list{
+			display: block;
+			border-radius: 10px;
+		}
